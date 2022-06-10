@@ -6,7 +6,6 @@ import '../geometry/bounds.dart';
 import '../geometry/point.dart';
 import '../geometry/transformation.dart';
 import '../projection/projection.dart';
-import '../projection/projection.pj4.dart';
 import 'crs.dart';
 
 /// Custom CRS

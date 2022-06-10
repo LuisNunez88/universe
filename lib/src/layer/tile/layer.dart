@@ -103,7 +103,7 @@ class _TileLayerState extends State<TileLayer> with TickerProviderStateMixin {
     _refresh();
     _initSoftUpdate();
 
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       map.addChangedListener(_onMapChanged);
     });
   }

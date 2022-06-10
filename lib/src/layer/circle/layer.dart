@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 
 import '../../core/latlng/distance/distance.dart';
 import '../../core/latlng/latlng.dart';

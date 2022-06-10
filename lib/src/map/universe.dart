@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../control/control.dart' as C;
@@ -68,8 +68,7 @@ class Universe extends StatelessWidget {
     this.videos = const [],
     this.layers = const [],
     this.controls = const [],
-  })  : assert(layers is List<MapLayer>),
-        super(key: key);
+  }) : super(key: key);
 
   /// Has base tile layer.
   bool get hasBase => base != null;
@@ -182,7 +181,7 @@ class __MapState extends State<_Map> with TickerProviderStateMixin {
     _width = map.width;
     _height = map.height;
 
-    WidgetsBinding.instance?.addPostFrameCallback((_) async {
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
       await map.init(self, _resize);
       _resize();
       map.rotate(map.originalRotation);

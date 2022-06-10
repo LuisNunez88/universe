@@ -1,12 +1,8 @@
 import 'dart:math' as math;
+
 import 'package:tuple/tuple.dart';
 
 import '../core.dart';
-import 'crs.dart';
-import '../latlng/latlng.dart';
-import '../projection/projection.dart';
-import '../projection/projection.simple.dart';
-import '../geometry/transformation.dart';
 
 /// A simple CRS that maps longitude and latitude into `x` and `y` directly.
 /// May be used for maps of flat surfaces (e.g. game maps).

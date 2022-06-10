@@ -1,10 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../../shared.dart';
 import '../layer.dart';
-import 'image.dart';
-import 'svg.dart';
 
 class MarkerLayerOptions extends InteractiveLayerOptions {
   final double? size;

@@ -1,11 +1,3 @@
-export 'image.dart';
-export 'layer.dart';
-export 'level.dart';
-export 'options.dart';
-export 'provider/provider.dart';
-export 'wmsoptions.dart';
-
-import 'dart:ui';
 import 'package:curved_animation_controller/curved_animation_controller.dart';
 import 'package:flutter/animation.dart';
 import 'package:flutter/rendering.dart';
@@ -14,6 +6,13 @@ import 'package:flutter/scheduler.dart';
 import '../../core/core.dart';
 import '../../log.dart';
 import 'level.dart';
+
+export 'image.dart';
+export 'layer.dart';
+export 'level.dart';
+export 'options.dart';
+export 'provider/provider.dart';
+export 'wmsoptions.dart';
 
 class Tile implements Comparable<Tile> {
   final Coordinate? coordinate;

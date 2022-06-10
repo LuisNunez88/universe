@@ -1,6 +1,5 @@
-import '../projection/projection.dart';
-import '../projection/projection.simple.dart';
 import '../geometry/transformation.dart';
+import '../projection/projection.dart';
 import 'crs.earth.dart';
 
 /// A common CRS among GIS enthusiasts.

@@ -3,14 +3,12 @@ import 'dart:math' as math;
 
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../core/core.dart';
 import '../../log.dart';
 import '../../map/map.dart';
 import '../layer.dart';
-import 'image.dart';
 
 class MarkerLayer extends InteractiveLayer {
   final Marker? marker;

@@ -1,7 +1,6 @@
 import '../../shared.dart';
 import '../geometry/transformation.dart';
 import '../projection/projection.dart';
-import '../projection/projection.spherical.mercator.dart';
 import 'crs.earth.dart';
 
 /// The most common CRS for online maps, used by almost all free and

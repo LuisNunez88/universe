@@ -8,7 +8,6 @@ import 'package:provider/provider.dart';
 import '../../core/core.dart';
 import '../../shared.dart';
 import '../map.dart';
-import 'tap_position.dart';
 
 /// list of methods to implements by MapGestureDetector
 abstract class MapGestureMixin {
